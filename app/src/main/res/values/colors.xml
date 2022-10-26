@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#fa0</color>
+    <color name="purple_500">#FFa000</color>
+    <color name="purple_700">#C8B0FF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_white">#fa0</color>
+    <color name="loader_background_color">#55AAAAAA</color>
+
+
+    <!--OnBoard-->
+
+
+    <color name="selected_dot">#2a0000</color>
+
+    <color name="idle_dot">#662D9CDB</color>
+
+    <color name="ob_header">#4A4A4A</color>
+
+    <color name="ob_desc">#4A4A4A</color>
+
+</resources>

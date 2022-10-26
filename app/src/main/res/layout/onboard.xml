@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/examify_bg"
+        tools:context=".screens.onboard.OnBoard">
+
+
+
+
+<!--        <com.google.android.gms.ads.AdView-->
+<!--            xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--            android:id="@+id/adView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            ads:adSize="BANNER"-->
+<!--            ads:adUnitId="ca-app-pub-8330777012217727/9635913804">-->
+<!--        </com.google.android.gms.ads.AdView>-->
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/btn_get_started"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#fa0"
+                    android:text="@string/ob_get_started"
+                    android:textAllCaps="false"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/button_text"
+                    android:visibility="gone" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/pager_introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </androidx.viewpager.widget.ViewPager>
+
+
+
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </FrameLayout>
+
+</layout>

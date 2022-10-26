@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Examify</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="add_folder">Add Folder</string>
+    <string name="submit">Submit</string>
+    <string name="pdf_is_ready">Pdf is Ready!</string>
+    <string name="select_category">Select Category</string>
+    <string name="add_pdf">Add Pdf</string>
+    <string name="pdf_name">Pdf Name</string>
+    <string name="delete">Delete</string>
+    <string name="home_page">KNEC Examify</string>
+
+    <string name="please_wait">Please Wait..</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    //OnBoarding//
+    <string name="ob_header1">Welcome to Examify</string>
+
+    <string name="ob_header2">KNEC Past Papers</string>
+
+    <string name="ob_header3"> Revision </string>
+
+    <string name="ob_get_started">GET STARTED</string>
+
+    <string name="ob_desc1">For KNEC Past papers and revision material,here is the App to assist you</string>
+
+    <string name="ob_desc2">For Kenyan TVET colleges and CDACC trainees</string>
+
+    <string name="ob_desc3">Get a GOOD grade,reach out to us for more info and notes!</string>
+
+</resources>

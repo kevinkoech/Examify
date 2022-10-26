@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816216818702",
+    "project_id": "examify-33df4",
+    "storage_bucket": "examify-33df4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816216818702:android:2f33a6a70bb2d99e87a85f",
+        "android_client_info": {
+          "package_name": "com.kevin.examify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816216818702-jjur7ana3ugr1b3pb1k6jekcmipdkl2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm2mOvgyhxISuc0D8XYnVfxVXW55nxUYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816216818702-jjur7ana3ugr1b3pb1k6jekcmipdkl2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

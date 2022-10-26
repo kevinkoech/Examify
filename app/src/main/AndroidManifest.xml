@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kevin.examify">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/iconexamify"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconexamify"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PdfReader"
+        tools:targetApi="31">
+
+         <!-- This meta-data tag is required to use Google Play Services. -->
+        <!--<meta-data
+            android:name="com.google.android.gms.version"
+             tools:replace="android:value"
+            android:value="ca-app-pub-8581982175086198~6350788025" />-->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+
+</manifest>
